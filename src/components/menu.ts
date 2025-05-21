@@ -175,6 +175,13 @@ export const menuData: Menus[] = [
         title: '主题',
     },
     {
+        id: '8',
+        icon: 'DataAnalysis',
+        index: '/datasource',
+        title: '数据源管理',
+        noAuth: true,
+    },
+    {
         id: '6',
         icon: 'DocumentAdd',
         index: '6',
