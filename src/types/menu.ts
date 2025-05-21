@@ -5,5 +5,6 @@ export interface Menus {
     index: string;
     title: string;
     permiss?: string;
+    noAuth?: boolean;
     children?: Menus[];
 }

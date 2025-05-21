@@ -221,6 +221,15 @@ const routes: RouteRecordRaw[] = [
                 },
                 component: () => import(/* webpackChunkName: "statistic" */ '../views/element/statistic.vue'),
             },
+            {
+                path: '/datasource',
+                name: 'datasource',
+                meta: {
+                    title: '数据源管理',
+                    noAuth: true,
+                },
+                component: () => import(/* webpackChunkName: "datasource" */ '../views/datasource/index.vue'),
+            },
         ],
     },
     {

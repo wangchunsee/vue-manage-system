@@ -35,6 +35,7 @@ export const usePermissStore = defineStore('permiss', {
                 '42',
                 '5',
                 '7',
+                '8',
                 '6',
                 '61',
                 '62',
