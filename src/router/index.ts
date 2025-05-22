@@ -230,6 +230,15 @@ const routes: RouteRecordRaw[] = [
                 },
                 component: () => import(/* webpackChunkName: "datasource" */ '../views/datasource/index.vue'),
             },
+            {
+                path: '/sql-monitor',
+                name: 'sqlMonitor',
+                meta: {
+                    title: 'SQL监控配置',
+                    noAuth: true,
+                },
+                component: () => import(/* webpackChunkName: "sql-monitor" */ '../views/sql-monitor/index.vue'),
+            },
         ],
     },
     {

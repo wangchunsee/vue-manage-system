@@ -9,6 +9,7 @@
 	},
 	"dependencies": {
 		"@element-plus/icons-vue": "*",
+		"@vue-js-cron/element-plus": "^3.1.7",
 		"@wangeditor/editor": "^5.1.23",
 		"@wangeditor/editor-for-vue": "^5.1.12",
 		"axios": "^1.6.3",
@@ -17,6 +18,7 @@
 		"echarts-wordcloud": "^2.1.0",
 		"element-plus": "^2.6.3",
 		"md-editor-v3": "^2.11.2",
+		"monaco-editor": "^0.52.2",
 		"nprogress": "^0.2.0",
 		"pinia": "^2.1.7",
 		"vue": "^3.4.5",
@@ -24,6 +26,7 @@
 		"vue-echarts": "^6.6.9",
 		"vue-router": "^4.2.5",
 		"vue-schart": "^2.0.0",
+		"vue3-monaco-editor": "^0.2.5",
 		"xlsx": "^0.18.5"
 	},
 	"devDependencies": {
