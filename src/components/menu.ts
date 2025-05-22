@@ -182,6 +182,12 @@ export const menuData: Menus[] = [
         noAuth: true,
     },
     {
+        id: '9',
+        icon: 'Monitor',
+        index: '/sql-monitor',
+        title: 'SQL监控配置',
+    },
+    {
         id: '6',
         icon: 'DocumentAdd',
         index: '6',
